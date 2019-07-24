@@ -5,45 +5,68 @@
   <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/about/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/cooking/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/cv/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/categories/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/drawing/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/exploring/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://isobel-romero-shaw.physics.monash.edu/prizes_and_awards/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/research/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://isobel-romero-shaw.physics.monash.edu/tags/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
