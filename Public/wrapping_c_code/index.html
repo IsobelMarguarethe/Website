@@ -439,7 +439,7 @@ void do_waveform_generation(REAL8 **hplusData, REAL8 **hcrossData,
 <code>-O2</code> turns on a bunch of optimisation flags;
 <code>-I</code> tells the compiler where to look for files to include.</p>
 
-<p>Once the <code>.c</code> files are compiled,  I need to create a <em>shared object</em>. This is an object that can be read by both C and Python (check this). I do this with the command</p>
+<p>Once the <code>.c</code> files are compiled,  I need to create a <em>shared object</em>. I do this with the command</p>
 
 <pre><code>gcc -m64 -shared -lpython3.6m Panyi_elip.o Panyicomm_elip.o PNwaveformPRD544813.o seobnre.o seobnre_wrap.o -L/home/$USER/anaconda3/lib -L/usr/local/lib -I/home/$USER/anaconda3/include/python3.6m -I/usr/local/include -o _seobnre.so -lgsl -lgslcblas -fPIC```
 </code></pre>
