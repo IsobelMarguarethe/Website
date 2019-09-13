@@ -396,7 +396,7 @@ void do_waveform_generation(REAL8 **hplusData, REAL8 **hcrossData,
                             REAL8 distance, REAL8 inclination);
 </code></pre>
 
-<p>In order to make these callable by Python, I have to wrap the code. I do this using <code>SWIG</code> [link]. In order to use <code>SWIG</code>, I need to set up a file that tells <code>SWIG</code> what’s important for my code. I do this using a SWIG interface file. It looks like this:</p>
+<p>In order to make these callable by Python, I have to wrap the code. I do this using <code>SWIG</code>. In order to use <code>SWIG</code>, I need to set up a file that tells <code>SWIG</code> what’s important for my code. I do this using a SWIG interface file. It looks like this:</p>
 
 <pre><code>/* file : seobnre.i */
 
@@ -449,7 +449,7 @@ void do_waveform_generation(REAL8 **hplusData, REAL8 **hcrossData,
 <code>-lpython3.6m</code> directs the compiler to my python 3.6 library;
 <code>-L</code> tells the compiler which libraries to use;
 <code>-o _seobnre.so</code> gives the compiler the name I want it to give to the shared object;
-<code>-lgsl</code> and <code>-lgslcblas</code> tell the compiler where my GSL [link] libraries live.</p>
+<code>-lgsl</code> and <code>-lgslcblas</code> tell the compiler where my GSL libraries live.</p>
 
 <p>Now I have a shared object. In order to use it, I need to set up my new module. So I create a file called <code>setup.py</code>, which can do this for me. It looks like this:</p>
 
